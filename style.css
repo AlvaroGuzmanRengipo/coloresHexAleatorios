@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #2c514c;
+}
+
+.centrar-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTENEDOR */
+
+#container {
+    height: 300px;
+    width: 500px;
+    background-color: #fff;
+    border: 5px solid #202020;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* COLORES */
+#color {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* BOTON */
+/* user-select: none; es para que el usuario no pueda seleccionar el texto del interior del boton */
+#boton-color {
+    font-size: 20px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #95818D;
+    margin: 10px;
+    padding: 10px 30px;
+    border: 3px solid #95818D;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#boton-color:hover {
+    background-color: #E3C0D3;
+    border: 3px solid #E3C0D3;
+}
